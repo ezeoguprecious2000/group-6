@@ -1,0 +1,372 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+background-color: black;}
+
+body{
+font-family: 'Inter', sans-serif;}
+
+header{
+width: 100%;
+display: flex;
+justify-content: flex-start;
+align-items: center;
+padding-left: 45px;
+border-bottom: 0.5px solid rgba(214, 0, 0, 0.5);
+padding-top: 15px;}
+
+a{
+text-decoration: none;
+color: #fff;
+font-weight: 500;
+font-size: 1.2em;
+line-height: 22px;}
+li{
+list-style: none;}
+
+nav ul{
+display: flex;
+padding-left: 230px;
+gap: 90px;}
+
+.active{
+border-bottom: 5px solid rgba(214, 0, 0, 0.786) ;
+border-radius: 2.5px;}
+
+.hero{
+display: flex;
+justify-content: flex-start;
+align-items: center;
+gap: 350px;
+padding-left: 45px;
+color: white;
+padding-top: 45px;}
+    
+.search{
+background-color: #292929dc;
+width: 650px;
+height: 60px;
+border-radius: 20px;
+display: flex;
+justify-content: center;
+align-items: center;}
+        
+.search p{
+background-color: #292929;
+margin-right: 250px;
+margin-left: 10px;
+font-weight: 400;
+font-size: 0.875em;
+line-height: 17px;
+color: rgba(255, 255, 255, 0.6);}
+
+i .fa-solid .fa-magnifying-glass .fa-l{
+background-color: #292929 ;}
+
+div .sign {
+display: flex;
+justify-content:space-evenly;
+align-items: center;
+gap: 55px; }
+
+.signup{
+color: #767373;
+font-size: 1.5em;
+font-weight: 600;}
+.signup:hover{
+cursor: pointer;
+font-size: 1.55em;
+color: #fff;}
+
+.login{
+width: 150px;
+font-size: 1.5em;
+font-weight: 600;
+background-color: #CC0000;;
+padding: 20px;
+text-align: center;
+text-decoration: none;
+border-radius: 20px;}
+
+.login:hover{
+cursor: pointer;
+font-size: 1.6em;}
+
+.trending{
+color: #fff;}
+        
+div.t{
+display: flex;
+flex-direction: row;
+align-items: baseline;
+gap: 950px;
+padding-top: 30px;
+padding-left: 65px;
+padding-bottom: 20px;}
+
+h2{
+font-weight: 600;
+font-size: 2.5em;
+line-height: 3em;}
+                    
+div.t p {
+font-weight: 500;
+font-size: 1.4em;
+line-height: 24px;}
+                    
+div.trendingcat{
+display: flex;
+ gap: 60px;
+padding-inline: 75px;
+justify-content: center;
+align-items: center;}
+                        
+div.trendingcat p{
+width: 800px;
+height: 65px;
+background: #292929; 
+border-radius: 15px;
+display: flex;
+justify-content: center;
+align-items: center;
+font-weight: 500;
+font-size: 1.3em;
+line-height: 1em;}
+
+div.trendingcat p:hover{
+cursor: pointer;
+font-size: 1.5em;
+color: #fff;
+}
+
+ div.trendingcat p.more{
+width: 300px;
+background-color:#CC0000;}
+
+div.trendingcat p.more i{
+background-color: #CC0000;}
+
+div.trendingcat p.all{
+background-color: #CC0000;}
+
+.trendingimages{
+display: flex;
+justify-content: center;
+align-items: center;
+padding-top: 45px;
+gap: 45px;}
+
+.cons{
+display: flex;
+padding-left: 250px;
+gap: 20px;}
+
+.cons i {
+font-size: 2.5em;}
+
+div.artist p{
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;}
+
+.dcontent{
+font-weight: 600;
+font-size: 1.8em;
+line-height: 2em;}
+
+.name{
+font-weight: 500;
+font-size: 1.1em}
+
+.hit{
+color: #fff;}
+
+.h{
+display: flex;
+flex-direction: row;
+align-items: baseline;
+gap: 950px;
+padding-top: 60px;
+padding-left: 65px;
+padding-bottom: 20px;}
+
+.h p{
+font-weight: 500;
+font-size: 1.4em;
+line-height: 24px;}
+
+div.hitimages{
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+padding-top: 0px;
+gap: 50px;
+padding-inline: 87px;}
+
+ div.hartist p{
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;}
+
+div.hartist p.hcontent{
+font-weight: 600;
+font-size: 1.8em;
+line-height: 2em;}
+
+div.hartist p.hname{
+font-weight: 500;
+font-size: 1.1em}
+
+.pop{
+color: #fff;}
+
+.p{
+display: flex;
+flex-direction: row;
+align-items: baseline;
+gap: 950px;
+padding-top: 60px;
+padding-left: 65px;
+padding-bottom: 20px;}
+                
+div.p p{
+font-weight: 500;
+font-size: 1.4em;
+line-height: 24px;}
+
+div .popimages{
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+padding-top: 0px;
+gap: 50px;
+padding-inline: 80px;}
+                                
+div.popimages p{
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;}
+
+div .popimages p.pcontent{
+font-weight: 600;
+font-size: 1.8em;
+line-height: 2em;}
+
+div .popimages p.pname{
+font-weight: 500;
+font-size: 1.1em;}
+
+.popart{
+color: #fff;}
+
+div.popartimages{
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+gap: 50px;
+padding-inline: 80px;}
+
+div .popartimages p.pa{
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+font-weight: 600;
+font-size: 1.8em;
+line-height: 2.4em;}
+
+div .popartimages p.paname{
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+font-weight: 600;
+font-size: 1.3em;
+line-height: 1.8em;
+padding-top: 25px;}
+
+div.popartimages p.paname:hover {
+cursor: pointer;
+text-decoration: underline #CC0000 3px;}
+
+.throwback{
+color: #fff}
+
+div.throwbackimages{
+position: relative;
+display: flex;
+justify-content: center;
+padding-left: 2px;
+padding-right: 30px;}
+
+div.throwbackimages p{
+display: flex;
+justify-content: center;
+align-items: center;
+position: absolute;
+top: 37%;
+left: 32%;
+background-color: #CC0000;
+width: 500px;
+height: 100px;
+font-weight: 600;
+font-size:2.2em;
+line-height: 44px;
+border-radius: 20px; }
+
+div.throwbackimages p:hover{
+cursor: pointer;
+color: rgba(255, 0, 0, 0.521);
+background-color: black;}
+
+.contact{
+display: flex;
+justify-content: center;
+align-items: center;
+color: #fff;
+display: flex;
+gap: 180px;}
+
+h3{
+font-weight: 600;
+font-size: 1.8em;
+line-height: 2.2em;}
+
+div .fourth h3{
+padding-top: 90px;
+margin-top: 15px;}
+
+div.contact p{
+display: flex;
+justify-content: left;
+font-weight: 400;
+font-size: 1.5em;
+line-height: 2em;
+color: rgba(255, 255, 255, 0.8);
+padding-bottom: 7px;}
+div .contact p:hover{
+cursor: pointer;
+text-decoration: underline #cc0000ec 3px;}
+
+div.footer{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+padding-top: 95px;
+gap: 40px;}
+
+div.footer i{
+display: inline-block;
+font-size: 2em;
+padding: 10px;
+}
+/* LOGIN PAGE */
+
+
+    
